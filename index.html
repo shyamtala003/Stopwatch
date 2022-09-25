@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="stop-watch">
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>.
+            <span id="milliseconds">00</span>
+        </div>
+
+        <div class="lap__container" id="lap__container">
+        </div>
+
+        <div class="controls">
+            <button class="btn" id="reset"><img src="./icons/reset.png" alt=""></button>
+            <button class="btn" id="play__pause"><img src="./icons/play.png" alt="" id="play__pause__img"></button>
+            <button class="btn" id="lap"><img src="./icons/stopwatch.png" alt=""></button>
+        </div>
+    </div>
+
+    <!-- music alerts -->
+    <audio src="./sounds/stopwatch.wav" id="stop__watch_mp3"></audio>
+    <audio src="./sounds/lap.mp3" id="lap__mp3"></audio>
+
+    <script src="./main.js"></script>
+</body>
+</html>
